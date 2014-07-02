@@ -58,23 +58,21 @@ a{
 	color: #e8603c;
 }
 .slider{
+	position: relative;
 	height: 400px;
 	background: url(http://placehold.it/940x400);
 }
 .slider .previousHover, .slider .nextHover{
 	display: inline-block;
-	height: 40px;
-	width: 55px;
+	position: absolute;
+	top: 150px;
 	box-sizing: border-box;
-	padding-top: 155px;
 }
 .slider .previousHover{
-	float: left;
-	text-align: right;
+	left: 30px;
 }
 .slider .nextHover{
-	float: right;
-	text-align: left;
+	right: 30px;
 }
 .slider img{
 	width: 30px;
